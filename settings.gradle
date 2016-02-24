@@ -1,0 +1,3 @@
+include ':app', ':pullToRefresh',':vitamio'
+project(':pullToRefresh').projectDir = new File('library/pullToRefresh')
+project(':vitamio').projectDir = new File('library/vitamio')

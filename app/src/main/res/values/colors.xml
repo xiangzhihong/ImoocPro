@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="cardview_light_background">#fffafafa</color>
+    <color name="cardview_dark_background">#ff202020</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+    <color name="mediacontroller_bg">#99000000</color>
+    <color name="gray_404040">#ff404040</color>
+    <color name="gray_808080">#ff808080</color>
+    <color name="gray_C0C0C0">#ffc0c0c0</color>
+    <color name="white_FFFFFF">#ffffffff</color>
+    <color name="gray_F5F5F5">#fff5f5f5</color>
+    <color name="gray_E0E0E0">#ffe0e0e0</color>
+    <color name="white_1AFFFFFF">#1affffff</color>
+    <color name="white_33FFFFFF">#33ffffff</color>
+    <color name="white_66FFFFFF">#66ffffff</color>
+    <color name="white_7FFFFFFF">#7fffffff</color>
+    <color name="white_FFFFFFFF">#ffffffff</color>
+    <color name="black_000000">#ff000000</color>
+    <color name="black_99000000">#99000000</color>
+    <color name="black_9A000000">#9a000000</color>
+    <color name="black_66000000">#66000000</color>
+    <color name="black_CC000000">#cc000000</color>
+    <color name="red_F01400">#fff01400</color>
+    <color name="red_C01000">#ffc01000</color>
+    <color name="green_20CC85">#ff20cc85</color>
+    <color name="blue_33BBFF">#ff33bbff</color>
+    <color name="blue">#ff499BF7</color>
+    <color name="red_D51716">#ffd51716</color>
+    <color name="green_2AB679">#ff2ab679</color>
+    <color name="tab_bg_color">#f8f8f8f8</color>
+    <color name="yellow_FF730F">#FF730F</color>
+    <color name="yellow_F99503">#F99503</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="gray_f2f2f2">#f2f2f2</color>
+</resources>

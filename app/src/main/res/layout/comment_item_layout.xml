@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mooc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/list_item_bg">
+
+    <ImageView
+        android:id="@+id/head_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_18dp"
+        android:src="@drawable/personal_default_user_icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_8dp"
+        android:layout_marginRight="@dimen/dimen_16dp">
+
+        <TextView
+            android:id="@+id/userName"
+            style="@style/text_gray_808080_12sp_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:ellipsize="end"
+            android:maxWidth="@dimen/dimen_220dp"
+            android:text="小小鱼"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/text_gray_c0c0c0_10sp_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userName"
+            android:text="1天前"
+            android:layout_marginTop="@dimen/dimen_4dp" />
+
+        <TextView
+            android:id="@+id/content"
+            style="@style/text_gray_404040_14sp_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="不错的课程"/>
+
+        <LinearLayout
+            android:id="@+id/praised_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/praisedNum"
+                style="@style/text_gray_c0c0c0_10sp_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="99"/>
+
+            <com.open.imooc.widght.MCIconFontView
+                android:id="@+id/praised_icon"
+                style="@style/text_gray_c0c0c0_16sp_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_6dp"
+                 />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_2px"
+            android:layout_below="@id/content"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:background="@color/gray_E0E0E0" />
+    </RelativeLayout>
+</LinearLayout>

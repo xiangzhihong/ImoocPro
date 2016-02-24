@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_bg">
+
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/clothing_01" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:layout_alignLeft="@+id/item_image"
+        android:layout_alignBottom="@+id/item_image"
+        android:layout_alignRight="@+id/item_image"
+        android:text="畅游温泉"
+        android:textColor="@color/white_FFFFFF"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

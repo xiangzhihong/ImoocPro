@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/text_gray_404040_18sp_style"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/update_dialog_title" />
+
+    <ImageView
+        style="@style/divider_line_2px"
+        android:layout_width="fill_parent"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/text_gray_404040_14sp_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/update_dialog_content" />
+
+    <SeekBar
+        android:id="@+id/upgrade_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="15dp"
+        android:max="100"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:progressDrawable="@drawable/upgrade_seekbar_drawable"
+        android:thumb="@android:color/transparent" />
+</LinearLayout>

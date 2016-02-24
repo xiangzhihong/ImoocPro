@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.open.imooc"
+        minSdkVersion 10
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    productFlavors {
+        /*渠道包第一种写法*/
+        /* xiaomi {
+             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+         }
+         _360 {
+             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "_360"]
+         }
+         baidu {
+             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+         }
+         wandoujia {
+             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+         }*/
+        wandoujia {}
+        _360 {}
+        baidu {}
+        xiaomi {}
+        tencent {}
+        taobao {}
+    }
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+
+}
+
+dependencies {
+    compile 'com.android.support:multidex:1.0.0'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile files('libs/butterknife-6.1.0.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/universal-image-loader-1.9.4.jar')
+    compile files('libs/httpclient-4.2.5.jar')
+    compile files('libs/android-async-http-master.jar')
+    compile files('libs/jsoup-1.7.2.jar')
+    compile project(':pullToRefresh')
+    compile project(':vitamio')
+    compile files('libs/GetuiExt-2.0.3.jar')
+    compile files('libs/GetuiSDK2.7.0.0.jar')
+    compile files('libs/json_simple-1.1.jar')
+}
+
+/*签名*/
+/*signingConfigs{
+    release {
+        storeFile file("D:\\Projects/package.jks")
+        storePassword "19881205"
+        keyAlias "package"
+        keyPassword "19881205"
+    }
+}
+apply plugin: 'announce'*/

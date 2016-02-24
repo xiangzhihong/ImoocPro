@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+   android:background="@drawable/list_item_bg">
+
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#454545"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"/>
+    <RelativeLayout 
+        android:id="@+id/ll_constact"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+       
+        android:gravity="center_vertical"
+        android:background="@color/white_FFFFFF">
+        <ImageView
+            android:id="@+id/icon" 
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+             android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp"
+             android:layout_marginLeft="5dp"
+            android:src="@drawable/personal_default_user_icon"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/app_name"
+            />
+        <TextView 
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:text="张三"/>
+        
+
+         <TextView
+            android:id="@+id/invest"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+             android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+             android:layout_marginRight="@dimen/dimen_10dp"
+            android:background="@drawable/green_fill_bg"
+             android:paddingLeft="15dp"
+             android:paddingRight="15dp"
+             android:paddingTop="8dp"
+             android:paddingBottom="8dp"
+             android:text="添加"
+             android:textSize="@dimen/dimen_18sp"
+             android:textColor="@color/white_FFFFFF"
+            />
+        
+    </RelativeLayout>
+
+</LinearLayout>

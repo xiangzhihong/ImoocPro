@@ -1,0 +1,137 @@
+{
+    "status": 1,
+    "data": [
+        {
+            "chapter": {
+                "id": 2747,
+                "name": "利用shell脚本分析nginx运行状态",
+                "cid": 539,
+                "seq": 1
+            },
+            "media": [
+                {
+                    "id": 10513,
+                    "name": "概述",
+                    "type": 1,
+                    "chapter_seq": 1,
+                    "chapter_id": 2747,
+                    "media_seq": 1,
+                    "media_url": "http://v1.mukewang.com/15caa0e3-ec12-49a7-870d-e0a6a9633e95/L.mp4",
+                    "media_down_url": "http://v1.mukewang.com/15caa0e3-ec12-49a7-870d-e0a6a9633e95/H.mp4",
+                    "duration": 254570,
+                    "last_time": 0,
+                    "last_date": 0,
+                    "share_url": "http://www.imooc.com/video/10513",
+                    "have_ques": 0,
+                    "media_size": 8814147,
+                    "media_down_size": 17130857,
+                    "status": 0
+                },
+                {
+                    "id": 10514,
+                    "name": "nginx监控脚本",
+                    "type": 1,
+                    "chapter_seq": 1,
+                    "chapter_id": 2747,
+                    "media_seq": 2,
+                    "media_url": "http://v1.mukewang.com/535adfd6-23e2-4402-92d4-73ce327d6768/L.mp4",
+                    "media_down_url": "http://v1.mukewang.com/535adfd6-23e2-4402-92d4-73ce327d6768/H.mp4",
+                    "duration": 570650,
+                    "last_time": 0,
+                    "last_date": 0,
+                    "share_url": "http://www.imooc.com/video/10514",
+                    "have_ques": 0,
+                    "media_size": 24327645,
+                    "media_down_size": 48117373,
+                    "status": 0
+                }
+            ]
+        },
+        {
+            "chapter": {
+                "id": 2748,
+                "name": "利用shell监控mysql",
+                "cid": 539,
+                "seq": 2
+            },
+            "media": [
+                {
+                    "id": 10515,
+                    "name": "Mysql主从复制状态监控",
+                    "type": 1,
+                    "chapter_seq": 2,
+                    "chapter_id": 2748,
+                    "media_seq": 1,
+                    "media_url": "http://v1.mukewang.com/9967d030-ba7c-4515-a3f6-d6edeff39f3e/L.mp4",
+                    "media_down_url": "http://v1.mukewang.com/9967d030-ba7c-4515-a3f6-d6edeff39f3e/H.mp4",
+                    "duration": 209600,
+                    "last_time": 0,
+                    "last_date": 0,
+                    "share_url": "http://www.imooc.com/video/10515",
+                    "have_ques": 0,
+                    "media_size": 7947248,
+                    "media_down_size": 17689174,
+                    "status": 0
+                },
+                {
+                    "id": 10516,
+                    "name": "Mysql主从复制状态函数编写",
+                    "type": 1,
+                    "chapter_seq": 2,
+                    "chapter_id": 2748,
+                    "media_seq": 2,
+                    "media_url": "http://v1.mukewang.com/dcec6048-d552-4f7a-940c-f1832d450cf0/L.mp4",
+                    "media_down_url": "http://v1.mukewang.com/dcec6048-d552-4f7a-940c-f1832d450cf0/H.mp4",
+                    "duration": 396740,
+                    "last_time": 0,
+                    "last_date": 0,
+                    "share_url": "http://www.imooc.com/video/10516",
+                    "have_ques": 0,
+                    "media_size": 16407742,
+                    "media_down_size": 32642246,
+                    "status": 0
+                },
+                {
+                    "id": 10517,
+                    "name": "Mysql主从复制状态建立Mysql监控普通用户",
+                    "type": 1,
+                    "chapter_seq": 2,
+                    "chapter_id": 2748,
+                    "media_seq": 3,
+                    "media_url": "http://v1.mukewang.com/ab11aab1-a80a-41cf-bc90-5841978925b9/L.mp4",
+                    "media_down_url": "http://v1.mukewang.com/ab11aab1-a80a-41cf-bc90-5841978925b9/H.mp4",
+                    "duration": 175130,
+                    "last_time": 0,
+                    "last_date": 0,
+                    "share_url": "http://www.imooc.com/video/10517",
+                    "have_ques": 0,
+                    "media_size": 7497645,
+                    "media_down_size": 14796689,
+                    "status": 0
+                },
+                {
+                    "id": 10518,
+                    "name": "Mysql主从复制状态建立Mysql监控主从同步延时",
+                    "type": 1,
+                    "chapter_seq": 2,
+                    "chapter_id": 2748,
+                    "media_seq": 4,
+                    "media_url": "http://v1.mukewang.com/30f5117e-a945-4287-a73d-910831129ffe/L.mp4",
+                    "media_down_url": "http://v1.mukewang.com/30f5117e-a945-4287-a73d-910831129ffe/H.mp4",
+                    "duration": 431530,
+                    "last_time": 0,
+                    "last_date": 0,
+                    "share_url": "http://www.imooc.com/video/10518",
+                    "have_ques": 0,
+                    "media_size": 18355450,
+                    "media_down_size": 36576013,
+                    "status": 0
+                }
+            ]
+        }
+    ],
+    "errorCode": 1000,
+    "errorDesc": "成功",
+    "timestamp": 1451289149987,
+    "hash": "1512281527371860"
+}

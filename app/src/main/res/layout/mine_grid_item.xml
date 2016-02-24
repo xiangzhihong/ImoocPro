@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/list_item_bg"
+    >
+
+    <TextView
+        android:id="@+id/item_name"
+        style="@style/text_gray_404040_16sp_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/people_mymessage_icon"
+        android:gravity="center"
+        android:drawablePadding="8dp"
+        android:text="我的消息" />
+
+    <ImageView
+        android:id="@+id/item_update_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|right"
+        android:layout_toRightOf="@+id/item_name"
+        android:background="@drawable/people_myhistory_redradio_icon"
+        android:visibility="gone"/>
+</RelativeLayout>

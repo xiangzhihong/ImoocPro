@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\loading_ok.png",
+        "source": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\loading_ok.png"
+    },
+    {
+        "merged": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
+        "source": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\loading.png",
+        "source": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\loading.png"
+    },
+    {
+        "merged": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\refresh_loading.png",
+        "source": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\refresh_loading.png"
+    },
+    {
+        "merged": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\refresh_arrow.png",
+        "source": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\refresh_arrow.png"
+    },
+    {
+        "merged": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\android\\android-workspace\\Imooc\\library\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    }
+]

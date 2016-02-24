@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">慕课网</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginguide1">"注册登录后免费享用以下服务"</string>
+    <string name="loginguide2">下载课程到手机</string>
+    <string name="loginguide3">没有网络，一样随时随地想学就学</string>
+    <string name="loginguide4">记录学习过程</string>
+    <string name="loginguide5">课程有更新，提醒及时学习</string>
+    <string name="loginguide6">即时发送消息</string>
+    <string name="loginguide7">与朋友、大牛一起学习，一起交流</string>
+    <string name="register">注册</string>
+    <string name="forget">忘记密码？</string>
+    <string name="login_lable">登录</string>
+    <string name="login_user_create">慕课网账号创建中</string>
+    <string name="loginguide">直接进入</string>
+    <string name="update_dialog_title">更新</string>
+    <string name="update_cancel">取消更新</string>
+    <string name="update_backgrounder">后台运行</string>
+    <string name="update_dialog_content">正在升级新版本</string>
+    <string name="update_download_over">下载完成</string>
+    <string name="update_download_cancel">取消升级</string>
+    <string name="update_failed">更新失败</string>
+    <string name="version_label">Version %1$s</string>
+    <string name="copyright_label">Copyright © 2015 imooc.com All rights reserved.</string>
+    <string name="step_over">跳过</string>
+    <string name="about_me_tip">这位童鞋很懒，什么也没有留下～</string>
+    <string name="nickname_label">昵称</string>
+    <string name="nickname_edit_lable">修改昵称</string>
+    <string name="nickname_null_tip">昵称不能为空！</string>
+    <string name="nickname_error_tip">昵称2-18位中英文、数字及下划线！</string>
+    <string name="people_learn_lable">学习</string>
+    <string name="people_experience_lable">经验</string>
+    <string name="people_mycourse_lable">关注的课程</string>
+    <string name="people_mycourse_title">我关注的课程</string>
+    <string name="people_myplan_lable">我的计划</string>
+    <string name="people_mynews_lable">我的消息</string>
+    <string name="people_collectarticle_lable">收藏的文章</string>
+    <string name="people_mynote_lable">我的笔记</string>
+    <string name="people_myhistory_lable">最近学习</string>
+    <string name="person_myarticle_lable">我收藏的文章</string>
+    <string name="icon_man"></string>
+    <string name="icon_arrow_back"></string>
+    <string name="play_normal">1.0X</string>
+    <string name="play_speed_up1p7">1.7X</string>
+    <string name="play_speed_up">1.5X</string>
+    <string name="play_speed_up1p3">1.3X</string>
+    <string name="play_display_normal">标清</string>
+    <string name="get_video_error">播放内容获取失败！</string>
+    <string name="video_init_failed">播放器初始化失败,无法进行视频播放</string>
+    <string name="video_load_failed">视频加载失败，请检查网络</string>
+    <string name="icon_pause"></string>
+    <string name="icon_fullscreen"></string>
+    <string name="teacher_other_courses">老师的全部课程</string>
+    <string name="plan_label">相关计划</string>
+    <string name="setting">设置</string>
+    <string name="login_click">点击登录</string>
+    <string name="outnumber_input">超过规定数字</string>
+    <string name="only_wifi_download">允许非WIFI网络播放/下载视频</string>
+    <string name="only_wifi_download_illustrate">请慎重选择开启 避免过度使用流量</string>
+    <string name="push_label">推送通知</string>
+    <string name="sdcard_label">离线下载路径设置</string>
+    <string name="push_setting_warm">关闭推送，您将不能收到任何通知！</string>
+    <string name="push_setting_allday_lable">接收推送通知</string>
+    <string name="push_setting_time">修改时间</string>
+    <string name="push_setting_timeshow">%1$s-%2$s</string>
+    <string name="suggest_label">意见反馈</string>
+    <string name="suggest_pic_chooser">请选择图片格式上传</string>
+    <string name="update_label">版本更新</string>
+    <string name="find_newversion">发现新版本</string>
+    <string name="update_later">以后再说</string>
+    <string name="update_now">现在升级</string>
+    <string name="about_label">关于慕课</string>
+    <string name="grade_label">给我评分</string>
+    <string name="qq_group_label">QQ群：178759087</string>
+    <string name="clear_label">清除缓存</string>
+    <string name="logout_label">退出登录</string>
+    <string name="logout_isOK_lable">确定要登出账号吗？</string>
+    <string name="video_auto_play">视频自动播放</string>
+    <string name="icon_keyboard_arrow_right"></string>
+    <string name="app_recommend">欢迎动画</string>
+    <string name="no_contact">暂无联系人</string>
+    <!--弹幕相关-->
+    <string name="default_text">http://blog.csdn.net/xieyupeng520/article/details/49232925</string>
+
+    <string name="menu_edit">编辑</string>
+    <string name="menu_enter">完成</string>
+    <string name="menu_del">删除</string>
+    <string name="menu_sett">结算</string>
+
+    <!--弹幕随机文字-->
+    <string-array name="baeeage_array">
+        <item>颓废不是我的调调，积极才是我的王道</item>
+        <item>最让人感动的不是强者的保护，而是弱者的坚强</item>
+        <item>轻轻浅浅的笑，天马行空的心</item>
+        <item>I love you, 谢宇鹏！~</item>
+        <item>做好人，做好事；做明白人，做明白事！</item>
+        <item>认真你就赢了</item>
+        <item>我这么努力你都不赞我</item>
+        <item>等你一切都准备好了，或许你就没动力了</item>
+        <item>我的博客地址：http://blog.csdn.net/xieyupeng520</item>
+        <item>为什么毕业过了几年以后，同学之间的差距变的那么大？</item>
+        <item>本来差距就大，不过学校就那么点事，不显而已。</item>
+        <item>w1dyjtx!</item>
+        <item>加油加油加油！</item>
+        <item>这是一个弹幕的例子</item>
+        <item>祝你生日快乐~</item>
+        <item>本应用链接：http://blog.csdn.net/xieyupeng520/article/details/49232925</item>
+    </string-array>
+
+
+
+
+    <string name="comment_str">
+        {
+    "status": 1,
+    "data": [
+        {
+            "id": "148268",
+            "uid": "2733906",
+            "nickname": "哈士奇萌萌",
+            "img": "http://img.mukewang.com/56790fc0000101d901800180-370-370.jpg",
+            "description": "最后因为编码问题，苦恼甚久……不过还是解决了。",
+            "create_time": "1小时前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10695",
+            "chapter_seq": "8",
+            "media_title": "课程总结",
+            "media_seq": "1"
+        },
+        {
+            "id": "148241",
+            "uid": "358709",
+            "nickname": "扎根垄上",
+            "img": "http://img.mukewang.com/543005110001025601000100-370-370.jpg",
+            "description": "有代码么  ？",
+            "create_time": "1小时前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10691",
+            "chapter_seq": "7",
+            "media_title": "HTML下载器html_downloader",
+            "media_seq": "4"
+        },
+        {
+            "id": "148018",
+            "uid": "2645365",
+            "nickname": "貍肽",
+            "img": "http://img.mukewang.com/565f9f4e0001b2ce01000100-370-370.jpg",
+            "description": "老师 有时候  好激动呀1!!",
+            "create_time": "18小时前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10689",
+            "chapter_seq": "7",
+            "media_title": "调度程序",
+            "media_seq": "2"
+        },
+        {
+            "id": "147992",
+            "uid": "2654284",
+            "nickname": "xufeng123456",
+            "img": "http://img.mukewang.com/5333a207000118af02200220-370-370.jpg",
+            "description": "能不能分享一下源码",
+            "create_time": "20小时前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10695",
+            "chapter_seq": "8",
+            "media_title": "课程总结",
+            "media_seq": "1"
+        },
+        {
+            "id": "147950",
+            "uid": "2719307",
+            "nickname": "破晓01234567891011121314151617181920212223",
+            "img": "http://img.mukewang.com/5673c0380001b7a100990100-370-370.jpg",
+            "description": "能下载源码吗？",
+            "create_time": "21小时前",
+            "support_num": "1",
+            "is_support": 0,
+            "media_id": "10687",
+            "chapter_seq": "6",
+            "media_title": "BeautifulSoup实例测试",
+            "media_seq": "4"
+        },
+        {
+            "id": "147922",
+            "uid": "2731741",
+            "nickname": "东海的内地",
+            "img": "http://img.mukewang.com/56782da50001563f01800180-370-370.jpg",
+            "description": "讲的清晰明白，很期待高阶的课程，非常期待，不知何时推出",
+            "create_time": "23小时前",
+            "support_num": "1",
+            "is_support": 0,
+            "media_id": 0,
+            "chapter_seq": 0,
+            "media_title": "",
+            "media_seq": 0
+        },
+        {
+            "id": "147818",
+            "uid": "2705747",
+            "nickname": "hhhhzz",
+            "img": "http://img.mukewang.com/54584f850001c0bc02200220-370-370.jpg",
+            "description": "hhhbfffff",
+            "create_time": "1天前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10674",
+            "chapter_seq": "1",
+            "media_title": "课程介绍",
+            "media_seq": "1"
+        },
+        {
+            "id": "147775",
+            "uid": "330877",
+            "nickname": "IVer3ON",
+            "img": "http://img.mukewang.com/5649837c0001e88f05800381-370-370.jpg",
+            "description": "python 3和2很大区别就是python本身改为默认用unicode编码。字符串不再区分\"abc\"和u\"abc\", 字符串\"abc\"默认就是unicode，不再代表本地编码、由于有这种内部编码，像c#和java类似，再没有必要在语言环境内做类似设置编码，比如“sys.setdefaultencoding”;也因此也python 3的代码和包管理上打破了和2.x的兼容。2.x的扩展包要适应这种情况改写。另一个问题是语言环境内只有unicode怎么输出gbk之类的本地编码。如楼下说的。",
+            "create_time": "1天前",
+            "support_num": "1",
+            "is_support": 0,
+            "media_id": "10693",
+            "chapter_seq": "7",
+            "media_title": "HTML输出器",
+            "media_seq": "6"
+        },
+        {
+            "id": "147512",
+            "uid": "330877",
+            "nickname": "IVer3ON",
+            "img": "http://img.mukewang.com/5649837c0001e88f05800381-370-370.jpg",
+            "description": "使用Python3以上的：\n        return responce.read().decode('UTF-8')\n注意加上decode()",
+            "create_time": "1天前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10691",
+            "chapter_seq": "7",
+            "media_title": "HTML下载器html_downloader",
+            "media_seq": "4"
+        },
+        {
+            "id": "147482",
+            "uid": "330877",
+            "nickname": "IVer3ON",
+            "img": "http://img.mukewang.com/5649837c0001e88f05800381-370-370.jpg",
+            "description": "谢谢老师~",
+            "create_time": "1天前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10695",
+            "chapter_seq": "8",
+            "media_title": "课程总结",
+            "media_seq": "1"
+        },
+        {
+            "id": "147444",
+            "uid": "330877",
+            "nickname": "IVer3ON",
+            "img": "http://img.mukewang.com/5649837c0001e88f05800381-370-370.jpg",
+            "description": "python3  都发布3.5了 老师还用2",
+            "create_time": "2天前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10692",
+            "chapter_seq": "7",
+            "media_title": "HTML解析器html_parser",
+            "media_seq": "5"
+        },
+        {
+            "id": "147421",
+            "uid": "330877",
+            "nickname": "IVer3ON",
+            "img": "http://img.mukewang.com/5649837c0001e88f05800381-370-370.jpg",
+            "description": "#人生苦短，我用Python...",
+            "create_time": "2天前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10690",
+            "chapter_seq": "7",
+            "media_title": "URL管理器",
+            "media_seq": "3"
+        },
+        {
+            "id": "147367",
+            "uid": "2731570",
+            "nickname": "荒野之鹰0",
+            "img": "http://img.mukewang.com/56781e220001236f01000100-370-370.jpg",
+            "description": "啵啵啵啵啵",
+            "create_time": "2天前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10674",
+            "chapter_seq": "1",
+            "media_title": "课程介绍",
+            "media_seq": "1"
+        },
+        {
+            "id": "147364",
+            "uid": "2732232",
+            "nickname": "爬呀爬呀爬",
+            "img": "http://img.mukewang.com/5458475800015cb202200220-370-370.jpg",
+            "description": "按照老师写的 总是提示'module' object has no attribute 'urlopen'   我是2.7.11",
+            "create_time": "2天前",
+            "support_num": "0",
+            "is_support": 0,
+            "media_id": "10682",
+            "chapter_seq": "5",
+            "media_title": "urlib2下载器网页的三种方法",
+            "media_seq": "2"
+        },
+        {
+            "id": "147362",
+            "uid": "1068439",
+            "nickname": "小小糊",
+            "img": "http://img.mukewang.com/55ea3dea0001c7b807201280-370-370.jpg",
+            "description": "挺不错的。",
+            "create_time": "2天前",
+            "support_num": "1",
+            "is_support": 0,
+            "media_id": "10674",
+            "chapter_seq": "1",
+            "media_title": "课程介绍",
+            "media_seq": "1"
+        }
+    ],
+    "errorCode": 1000,
+    "errorDesc": "成功",
+    "timestamp": 1450949608112
+}</string>
+
+<string name="course_detail">{
+    "status": 1,
+    "data": [
+        {
+            "course_name": "iOS9新特性之UITesting",
+            "course_des": "在Xcode7中，苹果介绍了一种新的方式来管理我们应用界面的测试工作，那就是UITesting。UI Testing 允许我们对 UI 元素进行查找，交互，验证属性和状态。不需要我们手指反复点击，即完成自动化测试工作",
+            "finished": "1",
+            "teacher_list": [
+                {
+                    "uid": 2577144,
+                    "nickname": "飞翔蜗牛",
+                    "aboutme": "我的IOS架构师之路：\nOC/Swift语言入门 —> OC/Swift语言应用实践 —>OC/Swift语言高阶编程 —> OC/Swift 语言的科学与艺术 —> OC/Swift编程之美 —> OC/Swift编程之道 —> OC/Swift编程之禅—> 颈椎病康复指南。",
+                    "pic": "http://img.mukewang.com/5649356b0001670502000200-100-100.jpg",
+                    "sex": 0,
+                    "is_v": 1
+                }
+            ]
+        }
+    ],
+    "errorCode": 1000,
+    "errorDesc": "成功",
+    "timestamp": 1450952089935,
+    "hash": "1512241803519523"
+}</string>
+</resources>

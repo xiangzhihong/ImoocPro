@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/fullscress_duration_back" android:maxLevel="0" />
+    <item android:drawable="@drawable/fullscress_duration_advance" android:maxLevel="1" />
+    <item android:drawable="@drawable/fullscress_duration_back" android:maxLevel="2" />
+    <item android:drawable="@drawable/fullscress_duration_advance" android:maxLevel="3" />
+    <item android:drawable="@drawable/volume_control" android:maxLevel="4" />
+    <item android:drawable="@drawable/volume_mute" android:maxLevel="5" />
+    <item android:drawable="@drawable/intensity_control" android:maxLevel="6" />
+</level-list>

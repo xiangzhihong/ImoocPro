@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/red_D51716">
+
+        <RelativeLayout
+            android:id="@+id/tab_article"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tab_article_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="文章"
+                android:textColor="@color/white_FFFFFF"
+                android:textSize="20dp" />
+
+            <View
+                android:id="@+id/tab_article_line"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_alignLeft="@+id/tab_article_tv"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/tab_article_tv"
+                android:background="@color/white_FFFFFF" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_active"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tab_active_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="活动"
+                android:textColor="@color/gray_C0C0C0"
+                android:textSize="20dp" />
+
+            <View
+                android:id="@+id/tab_active_line"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_alignLeft="@+id/tab_active_tv"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/tab_active_tv"
+                android:background="@color/white_FFFFFF" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

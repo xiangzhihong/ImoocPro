@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_FFFFFF"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        style="@style/topbar_style">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_icon" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <!--io.vov.vitamio.widget.VideoView-->
+    <LinearLayout
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white_FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/course_chapter_name"
+                style="@style/text_gray_18sp_style"
+                android:text="章节"
+                 />
+
+            <View
+                android:id="@+id/course_chapter_line"
+                style="@style/navg_line_style"
+                android:layout_alignLeft="@id/course_chapter_name"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/course_chapter_name"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/course_comment_name"
+                style="@style/text_gray_18sp_style"
+                android:text="评论"
+                />
+
+            <View
+                android:id="@+id/course_comment_line"
+                style="@style/navg_line_style"
+                android:layout_alignLeft="@id/course_comment_name"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/course_comment_name"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/course_detail_name"
+                style="@style/text_gray_18sp_style"
+                android:text="详情"
+                 />
+
+            <View
+                android:id="@+id/course_detail_line"
+                style="@style/navg_line_style"
+                android:layout_alignLeft="@id/course_detail_name"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/course_detail_name"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

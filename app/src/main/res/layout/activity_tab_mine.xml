@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_FFFFFF"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_274dp"
+        android:background="@drawable/blur_default">
+
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/icon_setting"/>
+
+        <LinearLayout
+            android:id="@+id/login_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen_54dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/headimage"
+                android:layout_width="@dimen/dimen_70dp"
+                android:layout_height="@dimen/dimen_70dp"
+                android:layout_gravity="center_horizontal"
+                android:clickable="false"
+                android:focusable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/personal_default_user_icon" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen_45dp">
+
+                <TextView
+                    android:id="@+id/username"
+                    style="@style/text_white_ffffff_16sp_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/app_name" />
+
+                <com.open.imooc.widght.MCIconFontView
+                    android:id="@+id/usersex"
+                    style="@style/text_white_ffffff_14sp_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dimen_6dp"
+                    android:layout_toRightOf="@+id/username"
+                    android:text="@string/icon_man" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/signature"
+                style="@style/text_white_99ffffff_12sp_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/dimen_32dp"
+                android:layout_marginRight="@dimen/dimen_32dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/about_me_tip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/dimen_18dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/learn_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/learn_lable"
+                        style="@style/text_white_99ffffff_12sp_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/dimen_5dp"
+                        android:text="@string/people_learn_lable" />
+
+                    <TextView
+                        android:id="@+id/tvlearn"
+                        style="@style/text_white_ffffff_16sp_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/learn_lable"
+                        android:layout_centerHorizontal="true"
+                        android:text="123小时56分" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="@dimen/dimen_2px"
+                    android:layout_height="@dimen/dimen_44dp"
+                    android:background="@color/white_33FFFFFF" />
+
+                <RelativeLayout
+                    android:id="@+id/experience"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/experience_lable"
+                        style="@style/text_white_99ffffff_12sp_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/dimen_5dp"
+                        android:text="@string/people_experience_lable" />
+
+                    <TextView
+                        android:id="@+id/tvexperience"
+                        style="@style/text_white_ffffff_16sp_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/experience_lable"
+                        android:layout_centerHorizontal="true"
+                        android:text="123456" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/no_login_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_274dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/headimage_default"
+                android:layout_width="@dimen/dimen_70dp"
+                android:layout_height="@dimen/dimen_70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_54dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/personal_default_user_icon" />
+
+            <Button
+                android:id="@+id/nologin_btn"
+                style="@style/text_white_99ffffff_16sp_style"
+                android:layout_width="@dimen/dimen_150dp"
+                android:layout_height="@dimen/dimen_48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_40dp"
+                android:background="@drawable/button_nologin_click_bg"
+                android:text="@string/login_lable" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+       >
+
+        <GridView
+            android:id="@+id/mine_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:numColumns="3"
+            android:listSelector="@null"
+            android:paddingTop="15dp"
+            android:verticalSpacing="15dp"
+            android:horizontalSpacing="15dp"
+            android:background="@drawable/list_item_bg" />
+
+    </LinearLayout>
+
+</LinearLayout>

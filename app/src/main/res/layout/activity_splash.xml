@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white_FFFFFF">
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:text="@string/copyright_label"
+        android:textColor="@color/gray_C0C0C0"
+        android:textSize="@dimen/dimen_10sp" />
+
+    <ImageView
+        android:id="@+id/splash_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/copyright"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:src="@drawable/loading_main_bottom" />
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/splash_bottom"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/dimen_30dp"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        >
+
+
+    <TextView
+        android:id="@+id/splash_timeCount"
+        style="@style/text_red_f01400_18sp_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:text="3s"/>
+
+    <Button
+        android:id="@+id/step_over"
+        style="@style/text_white_ffffff_16sp_style"
+        android:layout_width="@dimen/dimen_60dp"
+        android:layout_height="@dimen/dimen_30dp"
+        android:background="@drawable/step_over_bg"
+        android:text="@string/step_over"
+         />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,204 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="text_red_f01400_16sp_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/red_F01400</item>
+    </style>
+    <style name="text_red_f01400_18sp_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/red_F01400</item>
+    </style>
+    <style name="text_white_ffffff_12sp_style">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white_FFFFFF</item>
+    </style>
+    <style name="text_gray_404040_18sp_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/gray_404040</item>
+    </style>
+    <style name="text_gray_404040_20sp_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/gray_404040</item>
+    </style>
+    <style name="text_gray_C0C0C0_20sp_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/gray_C0C0C0</item>
+    </style>
+    <style name="divider_line_2px">
+        <item name="android:background">@color/gray_E0E0E0</item>
+        <item name="android:layout_height">2px</item>
+    </style>
+    <style name="text_gray_808080_14sp_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_808080</item>
+    </style>
+    <style name="text_gray_808080_16sp_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray_808080</item>
+    </style>
+    <style name="text_gray_808080_18sp_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/gray_808080</item>
+    </style>
+    <style name="text_gray_c0c0c0_14sp_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_C0C0C0</item>
+    </style>
+    <style name="text_white_ffffff_16sp_style">
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/white_FFFFFF</item>
+    </style>
+    <style name="text_white_99ffffff_16sp_style">
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/white_7FFFFFFF</item>
+    </style>
+    <style name="topbar_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/drawable_topbar_bg</item>
+    </style>
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#cecece</item>
+    </style>
+    <style name="vertical_line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#cecece</item>
+    </style>
+    <style name="text_gray_c0c0c0_12sp_style">
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="android:textColor">@color/gray_C0C0C0</item>
+    </style>
+    <style name="text_gray_808080_12sp_style">
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="android:textColor">@color/gray_808080</item>
+    </style>
+    <style name="text_gray_404040_14sp_style">
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textColor">@color/gray_404040</item>
+    </style>
+    <style name="text_gray_404040_16sp_style">
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/gray_404040</item>
+    </style>
+    <style name="dateSelectorStyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="@android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="text_gray_c0c0c0_16sp_style">
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/gray_C0C0C0</item>
+    </style>
+    <style name="divider_line_1px">
+        <item name="android:background">@color/gray_E0E0E0</item>
+        <item name="android:layout_height">@dimen/dimen_1px</item>
+    </style>
+    <style name="text_white_99ffffff_12sp_style">
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="android:textColor">@color/white_7FFFFFFF</item>
+    </style>
+    <style name="text_white_ffffff_14sp_style">
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textColor">@color/white_FFFFFF</item>
+    </style>
+    <style name="list_notify_view">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_notify</item>
+        <item name="android:minHeight">25.0dip</item>
+    </style>
+    <style name="list_notify_cancel_btn">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:minWidth">45.0dip</item>
+    </style>
+    <style name="text_gray_808080_24sp_style">
+        <item name="android:textSize">@dimen/dimen_24sp</item>
+        <item name="android:textColor">@color/gray_808080</item>
+    </style>
+    <style name="text_white_ffffff_32sp_style">
+        <item name="android:textSize">@dimen/dimen_32sp</item>
+        <item name="android:textColor">@color/white_FFFFFF</item>
+    </style>
+    <style name="text_gray_c0c0c0_32sp_style">
+        <item name="android:textSize">@dimen/dimen_32sp</item>
+        <item name="android:textColor">@color/gray_C0C0C0</item>
+    </style>
+    <style name="text_gray_c0c0c0_10sp_style">
+        <item name="android:textSize">@dimen/dimen_10sp</item>
+        <item name="android:textColor">@color/gray_C0C0C0</item>
+    </style>
+    <style name="text_gray_18sp_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/gray_808080</item>
+    </style>
+    <style name="navg_line_style">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/red_D51716</item>
+    </style>
+    <style name="text_gray_c0c0c0_24sp_style">
+        <item name="android:textSize">@dimen/dimen_24sp</item>
+        <item name="android:textColor">@color/gray_C0C0C0</item>
+    </style>
+    <style name="text_gray_c0c0c0_28sp_style">
+        <item name="android:textSize">@dimen/dimen_28sp</item>
+        <item name="android:textColor">@color/gray_C0C0C0</item>
+    </style>
+    <style name="text_red_f01400_12sp_style">
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="android:textColor">@color/red_F01400</item>
+    </style>
+
+    <style name="schedule_progressbar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:background">@drawable/progress_bar_bg</item>
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar</item>
+        <item name="android:minHeight">5dp</item>
+        <item name="android:maxHeight">10dp</item>
+    </style>
+
+    <style name="group_left">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@drawable/group_font</item>
+        <item name="android:background">@drawable/group_left</item>
+    </style>
+
+    <style name="group_right">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@drawable/group_font</item>
+        <item name="android:background">@drawable/group_right</item>
+    </style>
+</resources>

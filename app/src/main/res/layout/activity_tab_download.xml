@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_F01400"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_white_ffffff_16sp_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下载" />
+
+            <TextView
+                style="@style/text_gray_c0c0c0_12sp_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="已占用1.9GB,剩余3.0GB" />
+
+        </LinearLayout>
+        
+        <ProgressBar
+            style="@style/schedule_progressbar"
+            android:layout_marginTop="8dp"
+            android:secondaryProgress="20"
+            />
+        
+    </LinearLayout>
+
+    <include
+        layout="@layout/activity_no_content"
+
+        />
+
+</LinearLayout>
